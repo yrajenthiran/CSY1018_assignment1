@@ -1,0 +1,419 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+body {
+  background-color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  float:left;
+  display: block;
+}
+
+.header {
+  margin-top:-25px;
+  width: 100%;
+  background-color: #141819;
+  height:45px;
+  margin-bottom: 0px;
+  color: aliceblue;
+  text-align:center;
+
+}
+
+.hamburger {
+  display:none;
+}
+.LandingImg {
+  width:100%;
+  height:auto;
+  background-color: #141819;
+  display:block;
+  margin-bottom: -5px;
+  text-align: center;
+}
+
+.LandingImgMobi {
+  width:100%;
+  height:auto;
+  background-color: #141819;
+  display:block;
+  margin-bottom: -5px;
+  text-align: center;
+  display:none;
+}
+ .IntroImg {
+  height: 525px;
+  width:57%;
+  color: #ccc;
+  float: left;
+  display:block;
+ }
+
+ .IntroImgMobi {
+  height: 216px;
+  width:57%;
+  color: #ccc;
+  float: left;
+  display:none;
+ }
+
+ .Quote {
+   height:525px;
+   width:43%;
+   float:left;
+   text-align: center;
+   color: #ccc;
+   background-color: #000000;
+   display:block;
+   font-family: 'ABeeZee', sans-serif;
+  font-size: 40px;
+  text-align: center;
+ }
+
+ .QuoteMobi {
+  height:216px;
+  width:43%;
+  float:left;
+  text-align: center;
+  color: #ccc;
+  background-color: #000000;
+  display:none;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 20px;
+  text-align: center;
+ }
+ 
+ .Team {
+   width: 100%;
+   height:auto;
+   margin-top:0px;
+   text-align:center;
+   color: #ccc;
+   background-color: #2E0E0E;
+   margin-bottom: -40px;
+   font-family: 'ABeeZee', sans-serif;
+   font-size: 40px;
+   text-align: center;
+ }
+
+ h3 {
+  font-family:'Hind Siliguri', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+.TeamMembers1 {
+  width:23%;
+  height:700px;
+  float: left;
+  background-color: #000000;
+  text-align: center;
+  font-size: 15px;
+  color: #ccc;
+  margin-left:2%;
+  margin-right: 2%;
+
+}
+
+.MendesPic {
+  display:block;
+}
+
+.MendesMobiPic {
+  display:none;
+}
+
+.TeamMembers2 {
+  width:22%;
+  height:700px;
+  float: left;
+  background-color: #000000;
+  text-align: center;
+  font-size: 15px;
+  color: #ccc;
+  margin-left: 2%;
+  margin-right:2%;
+
+}
+
+.RajPic {
+  display:block;
+}
+
+.RajMobiPic {
+  display:none;
+}
+
+.TeamMembers3 {
+  width:23%;
+  height:700px;
+  float:left;
+  background-color: #000000;
+  text-align: center;
+  font-size: 15px;
+  color: #ccc;
+  margin-left:2%;
+  margin-right:2%;
+
+}
+
+.MichealPic {
+  display:block;
+}
+
+.MichealMobiPic {
+  display:none;
+}
+
+.Video {
+  width:80%;
+  height:600px;
+  background-color:#000000;
+  text-align: center;
+  float: left;
+  display:block;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 40px;
+  color:#ccc;
+}
+.VideoMobi {
+  width:80%;
+  height:450px;
+  background-color:#000000;
+  text-align: center;
+  float: left;
+  display:none;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 40px;
+  color:#ccc;
+}
+
+
+.Border_Left_One {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 700px;
+  float: left;
+  display:block;
+}
+
+
+.Border_Right_One {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 700px;
+  float: left;
+  display:block;
+}
+
+.Border_Left_Two {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 600px;
+  float: left;
+  display:block;
+}
+
+.Border_Left_Two_Mobi {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 450px;
+  float: left;
+  display:none;
+}
+
+
+
+.Border_Right_Two {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 600px;
+  float:left;
+  display:block;
+}
+
+.Border_Right_Two_Mobi {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 450px;
+  float:left;
+  display:none;
+}
+
+
+
+footer {
+  clear: left;
+  color: #ccc;
+  width:100%;
+  height:25px;
+  background-color:#000000;
+}
+
+footer a {
+  color:#ccc;
+}
+
+footer a:hover {
+  color:#908F90
+}
+
+nav ul {
+  margin-left: 15%;
+}
+
+
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  list-style-type:none;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: #1A1921;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+li a:hover {
+  color: #000000;
+}
+
+li.active a {
+  font-weight: lighter;
+  color: #2E0E0E;
+  border-bottom: 1px solid
+   #ccc;
+}
+
+@media (max-width:650px) {
+  nav ul {
+    margin-left: 0%;
+  }
+
+  .LandingImg {
+    display:none;
+  }
+
+  .LandingImgMobi {
+    display:block;
+  }
+
+  .IntroImg {
+    display:none;
+  }
+
+  .IntroImgMobi {
+    display:block;
+  }
+
+  .Quote {
+    display:none;
+  }
+
+  .QuoteMobi {
+    display:block;
+  }
+
+  .Video {
+    display:none;
+  }
+
+  .VideoMobi {
+    display:block;
+  }
+
+  .Border_Left_Two {
+    display:none;
+  }
+
+  .Border_Left_Two_Mobi {
+    display: block;
+  }
+
+  .Border_Right_Two {
+    display:none;
+  }
+
+  .Border_Right_Two_Mobi {
+    display:block;
+  }
+
+  .TeamMembers1 {
+    font-size:12px;
+  }
+
+  .TeamMembers2 {
+    font-size:12px;
+  }
+
+  .TeamMembers3 {
+    font-size:12px;
+  }
+
+}
+
+.NavMenu {
+  background-color:#141819;
+}
+/* Following mobiNav code was taken and changed from Liz's Code pen example for Hover drop-down menu */
+.mobiNav {
+  display: inline-block;
+  text-align: left;
+  margin: 1%;
+  width: 70%;
+}
+.mobiNav:hover .mobiNav-content {
+  max-height: 300px;
+}
+.mobiNav-content {
+  -webkit-transition: max-height 3s;
+  -moz-transition: max-height 3s;
+  -ms-transition: max-height 3s;
+  -o-transition: max-height 3s;
+  transition: max-height 3s;
+  background: #908F90;
+  overflow: hidden;
+  max-height: 0;
+}
+.mobiNav-inner {
+  padding: 0 15px;
+}
+.mobiNav-toggle {
+  -webkit-transition: background .1s linear;
+  -moz-transition: background .1s linear;
+  -ms-transition: background .1s linear;
+  -o-transition: background .1s linear;
+  transition: background .1s linear;
+  background: #2E0E0E;
+  border-radius: 10px;
+  display: block;
+  font-size: 30px;
+  margin: 0 0 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.mobiNav-toggle:hover {
+  background: #141819;
+}
