@@ -1,0 +1,262 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+
+body {
+  background-color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  float:left;
+  display: block;
+}
+
+.header {
+  margin-top:-25px;
+  width: 100%;
+  background-color: #141819;
+  height:45px;
+  margin-bottom: 0px;
+  color: aliceblue;
+  text-align:center;
+
+}
+
+nav ul {
+  margin-left: 15%;
+}
+
+
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  list-style-type:none;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: #1A1921;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+li a:hover {
+  color: #000000;
+}
+
+li.active a {
+  font-weight: lighter;
+  color: #2E0E0E;
+  border-bottom: 1px solid
+   #ccc;
+}
+
+
+.Border_Left {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 1000px;
+  float: left;
+  display:block;
+}
+
+
+.Border_Right {
+  background-color: #2E0E0E;
+  width:10%;
+  height: 1000px;
+  float: left;
+  display:block;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+h3 {
+  font-family:'Hind Siliguri', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+h2 {
+  font-family:"Open Sans", sans-serif;
+  font-size:20px;
+  text-align: center;
+}
+
+.content {
+  width:70%;
+  height:1000px;
+  float:left;
+  display:block;
+  color: #ccc;
+  font-size:16px;
+  text-align:left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+footer {
+  clear: left;
+  color: #ccc;
+  width:100%;
+  height:25px;
+  background-color:#000000;
+}
+
+footer a {
+  color:#ccc;
+}
+
+footer a:hover {
+  color:#908F90
+}
+
+@media (max-width:650px) {
+  .content {
+    font-size: 11px;
+  }
+
+  .Video {
+    display:none;
+  }
+
+  .VideoMobi {
+    display:block;
+  }
+
+  .ScreenshotOne {
+    display:none;
+  }
+  
+  .ScreenshotOneMobi {
+    display:block;
+  }
+  
+  .ScreenshotTwo {
+    display:none;
+  }
+  
+  .ScreenshotTwoMobi {
+    display:block;
+  }
+  
+  .ScreenshotThree {
+    display:none;
+  }
+  
+  .ScreenshotThreeMobi {
+    display:block;
+  }
+
+  .content {
+    height:800px;
+  }
+
+  .Border_Left {
+    height:800px;
+  }
+
+  .Border_Right {
+    height:800px;
+  }
+
+}
+
+
+.NavMenu {
+  background-color:#141819;
+}
+
+
+/* Following mobiNav code was taken and changed from Liz's Code pen example for Hover drop-down menu */
+.mobiNav {
+  display: inline-block;
+  text-align: left;
+  margin: 1%;
+  width: 70%;
+}
+.mobiNav:hover .mobiNav-content {
+  max-height: 300px;
+}
+.mobiNav-content {
+  -webkit-transition: max-height 3s;
+  -moz-transition: max-height 3s;
+  -ms-transition: max-height 3s;
+  -o-transition: max-height 3s;
+  transition: max-height 3s;
+  background: #908F90;
+  overflow: hidden;
+  max-height: 0;
+}
+.mobiNav-inner {
+  padding: 0 15px;
+}
+.mobiNav-toggle {
+  -webkit-transition: background .1s linear;
+  -moz-transition: background .1s linear;
+  -ms-transition: background .1s linear;
+  -o-transition: background .1s linear;
+  transition: background .1s linear;
+  background: #2E0E0E;
+  border-radius: 10px;
+  display: block;
+  font-size: 30px;
+  margin: 0 0 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.mobiNav-toggle:hover {
+  background: #141819;
+}
+
+/* Below form css code taken and adapted from https://codepen.io/UoN-ThomasRose/pen/NbYrGj */
+
+
+form {
+  border: solid #2E0E0E 2px;
+  padding: 1em;
+  width: 40%;
+  min-width: 20em;
+  max-width: 26.5em;
+}
+
+.form-title {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  width: 96%;
+  resize: none;
+}
+
+fieldset {
+  width: inherit;
+}
+.option-list {
+  display: inline-block;
+}
