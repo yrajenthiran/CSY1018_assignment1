@@ -150,6 +150,15 @@ footer a:hover {
 @media (max-width:650px) {
   .content {
     font-size: 11px;
+    height:1000px;
+  }
+
+  .Border_Left {
+    height:1000px;
+  }
+
+  .Border_Right {
+    height:1000px;
   }
 
   .Video {

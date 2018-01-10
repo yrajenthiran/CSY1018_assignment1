@@ -92,7 +92,7 @@ h3 {
 .Border_Left {
   background-color: #2E0E0E;
   width:10%;
-  height: 3000px;
+  height: 3500px;
   float: left;
   display:block;
 }
@@ -101,7 +101,7 @@ h3 {
 .Border_Right {
   background-color: #2E0E0E;
   width:10%;
-  height: 3000px;
+  height: 3500px;
   float: left;
   display:block;
 }
@@ -168,4 +168,6 @@ footer a:hover {
 .mobiNav-toggle:hover {
   background: #141819;
 }
+
+
 

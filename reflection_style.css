@@ -71,7 +71,7 @@ li.active a {
 .Border_Left {
   background-color: #2E0E0E;
   width:10%;
-  height: 7000px;
+  height: 6000px;
   float: left;
   display:block;
 }
@@ -80,7 +80,7 @@ li.active a {
 .Border_Right {
   background-color: #2E0E0E;
   width:10%;
-  height: 7000px;
+  height: 6000px;
   float: left;
   display:block;
 }
@@ -104,7 +104,7 @@ h2 {
 
 .content {
   width:70%;
-  height:7000px;
+  height:6000px;
   float:left;
   display:block;
   color: #ccc;
@@ -173,15 +173,15 @@ footer a:hover {
   }
 
   .content {
-    height:1800px;
+    height:6000px;
   }
 
   .Border_Left {
-    height:7000px;
+    height:6000px;
   }
 
   .Border_Right {
-    height:7000px;
+    height:6000px;
   }
 
 }
