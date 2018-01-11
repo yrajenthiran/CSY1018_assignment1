@@ -14,7 +14,7 @@ body {
   margin: 0;
   text-align: center;
 }
-
+/*Logo css*/
 .logo {
   float:left;
   display: block;
@@ -30,6 +30,8 @@ body {
   text-align:center;
 
 }
+
+/*navigation bar css*/
 
 nav ul {
   margin-left: 15%;
@@ -75,7 +77,7 @@ h3 {
   text-align: center;
 }
 
-
+/*main content*/
 .content {
   width:70%;
   height:auto;
@@ -88,7 +90,7 @@ h3 {
   margin-right:5%;
 
 }
-
+/*left red block css*/
 .Border_Left {
   background-color: #2E0E0E;
   width:10%;
@@ -97,7 +99,7 @@ h3 {
   display:block;
 }
 
-
+/*right red block css*/
 .Border_Right {
   background-color: #2E0E0E;
   width:10%;
@@ -105,7 +107,7 @@ h3 {
   float: left;
   display:block;
 }
-
+/*footer css*/
 footer {
   clear: left;
   color: #ccc;

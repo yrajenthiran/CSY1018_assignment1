@@ -14,7 +14,7 @@ body {
   margin: 0;
   text-align: center;
 }
-
+/*logo css*/
 .logo {
   float:left;
   display: block;
@@ -30,7 +30,7 @@ body {
   text-align:center;
 
 }
-
+/*navigation bar css*/
 nav ul {
   margin-left: 15%;
 }
@@ -67,7 +67,7 @@ li.active a {
    #ccc;
 }
 
-
+/*left red block css*/
 .Border_Left {
   background-color: #2E0E0E;
   width:10%;
@@ -76,7 +76,7 @@ li.active a {
   display:block;
 }
 
-
+/*right red block css*/
 .Border_Right {
   background-color: #2E0E0E;
   width:10%;
@@ -84,7 +84,7 @@ li.active a {
   float: left;
   display:block;
 }
-
+/*header tags css*/
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
@@ -101,7 +101,7 @@ h2 {
   font-size:20px;
   text-align: center;
 }
-
+/*main content css*/
 .content {
   width:70%;
   height:1350px;
@@ -113,24 +113,24 @@ h2 {
   margin-left: 5%;
   margin-right: 5%;
 }
-
+/*desktop video css*/
 .Video {
   text-align:center;
   display:block;
 }
-
+/*mobile video css*/
 .VideoMobi {
   text-align:center;
   display:none;
 }
-
+/*author's note css below my name on page*/
 .Name {
   color: #ccc;
   font-size: 10px;
 }
 
 
-
+/*footer css*/
 footer {
   clear: left;
   color: #ccc;
@@ -146,7 +146,7 @@ footer a {
 footer a:hover {
   color:#908F90
 }
-
+/*media qery for when the site's max-width goes to 650px*/
 @media (max-width:650px) {
   .content {
     font-size: 11px;

@@ -13,11 +13,13 @@ body {
   margin: 0;
   text-align: center;
 }
-
+/* Logo css code */
 .logo {
   float:left;
   display: block;
 }
+
+/*Default header css code*/
 
 .header {
   margin-top:-25px;
@@ -29,10 +31,7 @@ body {
   text-align:center;
 
 }
-
-.hamburger {
-  display:none;
-}
+/*Css for the desktop landing image*/
 .LandingImg {
   width:100%;
   height:auto;
@@ -41,6 +40,8 @@ body {
   margin-bottom: -5px;
   text-align: center;
 }
+
+/*Css for the mobile landing page*/
 
 .LandingImgMobi {
   width:100%;
@@ -51,6 +52,8 @@ body {
   text-align: center;
   display:none;
 }
+
+/*Css for the desktop landing page*/
  .IntroImg {
   height: 525px;
   width:57%;
@@ -59,6 +62,8 @@ body {
   display:block;
  }
 
+ /*Css for the mobile landing page , resized image*/
+
  .IntroImgMobi {
   height: 216px;
   width:57%;
@@ -66,6 +71,8 @@ body {
   float: left;
   display:none;
  }
+
+ /*desktop quote/motto */
 
  .Quote {
    height:525px;
@@ -80,6 +87,8 @@ body {
   text-align: center;
  }
 
+ /*mobile quote/motto, smaller text*/
+
  .QuoteMobi {
   height:216px;
   width:43%;
@@ -92,6 +101,8 @@ body {
   font-size: 20px;
   text-align: center;
  }
+
+ /*default css for the team intro*/
  
  .Team {
    width: 100%;
@@ -112,7 +123,7 @@ body {
   text-align: center;
 }
 
-
+/*Mendes intro css*/
 
 .TeamMembers1 {
   width:23%;
@@ -126,15 +137,15 @@ body {
   margin-right: 2%;
 
 }
-
+/*desktop*/
 .MendesPic {
   display:block;
 }
-
+/*mobile*/
 .MendesMobiPic {
   display:none;
 }
-
+/*Raj intro css*/
 .TeamMembers2 {
   width:22%;
   height:700px;
@@ -147,15 +158,15 @@ body {
   margin-right:2%;
 
 }
-
+/*desktop*/
 .RajPic {
   display:block;
 }
-
+/*mobile*/
 .RajMobiPic {
   display:none;
 }
-
+/*Micheal intro css*/
 .TeamMembers3 {
   width:23%;
   height:700px;
@@ -168,15 +179,15 @@ body {
   margin-right:2%;
 
 }
-
+/*desktop*/
 .MichealPic {
   display:block;
 }
-
+/*mobile*/
 .MichealMobiPic {
   display:none;
 }
-
+/*video section css*/
 .Video {
   width:80%;
   height:600px;
@@ -188,6 +199,7 @@ body {
   font-size: 40px;
   color:#ccc;
 }
+/*mobile version*/
 .VideoMobi {
   width:80%;
   height:450px;
@@ -200,7 +212,7 @@ body {
   color:#ccc;
 }
 
-
+/*left red block css*/
 .Border_Left_One {
   background-color: #2E0E0E;
   width:10%;
@@ -209,7 +221,7 @@ body {
   display:block;
 }
 
-
+/*right red block css*/
 .Border_Right_One {
   background-color: #2E0E0E;
   width:10%;
@@ -217,7 +229,7 @@ body {
   float: left;
   display:block;
 }
-
+/*second left red block css*/
 .Border_Left_Two {
   background-color: #2E0E0E;
   width:10%;
@@ -225,7 +237,7 @@ body {
   float: left;
   display:block;
 }
-
+/*mobile right red block css*/
 .Border_Left_Two_Mobi {
   background-color: #2E0E0E;
   width:10%;
@@ -235,7 +247,7 @@ body {
 }
 
 
-
+/*second right red block css*/
 .Border_Right_Two {
   background-color: #2E0E0E;
   width:10%;
@@ -243,7 +255,7 @@ body {
   float:left;
   display:block;
 }
-
+/* second right red block css mobile*/
 .Border_Right_Two_Mobi {
   background-color: #2E0E0E;
   width:10%;
@@ -253,7 +265,7 @@ body {
 }
 
 
-
+/*footer css*/
 footer {
   clear: left;
   color: #ccc;
@@ -270,6 +282,7 @@ footer a:hover {
   color:#908F90
 }
 
+/*navigation bar css*/
 nav ul {
   margin-left: 15%;
 }
@@ -305,6 +318,8 @@ li.active a {
   border-bottom: 1px solid
    #ccc;
 }
+
+/*media query for when the site max-width goes to 650px*/
 
 @media (max-width:650px) {
   nav ul {
